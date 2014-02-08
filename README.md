@@ -1,6 +1,9 @@
 node-fsjson
 ==============
 
+![Travis CI](https://travis-ci.org/fkei/node-fsjson.png?branch=master)
+
+
 # About
 
 ファイルシステムにある、JSONファイル、JSファイル(return JSON Object) をロードするライブラリ
@@ -24,7 +27,19 @@ $ npm test
 
 # Used
 
-## Load JSON file format
+## API
+
+```
+var fsjson = require('fsjson');
+
+var json = fsjson.readJsonSync('PATH'); // JSON file
+
+var json_js = fsjson.readFileFnJSONSync('PATH'); // JS file
+```
+
+## File format
+
+### Load JSON file format
 
 ```
 // start
@@ -47,7 +62,7 @@ $ npm test
 
 ```
 
-## Load JSON file format
+### Load JSON file format
 
 ```javascript
 (function () {
