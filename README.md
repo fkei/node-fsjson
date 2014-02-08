@@ -3,7 +3,6 @@ node-fsjson
 
 ![Travis CI](https://travis-ci.org/fkei/node-fsjson.png?branch=master)
 
-
 # About
 
 ファイルシステムにある、JSONファイル、JSファイル(return JSON Object) をロードするライブラリ
