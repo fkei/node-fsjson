@@ -94,3 +94,7 @@ LICENSE
 The MIT License (MIT)
 
 @see : [LICENSE](https://raw.github.com/fkei/node-fsjson/master/LICENSE)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/fkei/node-fsjson/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
